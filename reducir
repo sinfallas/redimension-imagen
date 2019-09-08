@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# Made by Sinfallas <sinfallas@yahoo.com>
+# Licence: GPL-2
+
+if [[ "$EUID" != "0" ]]; then
+	echo -e "\e[00;31mERROR: debe ser root.\e[00m"
+	exit 1
+fi
+
+if [[ -z $1 ]]; then
+	echo "ERROR: No indico ningun directorio."
+	exit 1
+fi
+
+for i in $(find $1 . -name "*.jpg"); do
+	jpegoptim --all-progressive --size=250k $i
+done
+
+for i in $(find $1 . -name "*.jpeg"); do
+	jpegoptim --all-progressive --size=250k $i
+done
+echo "Finalizado."
+
+exit 0
