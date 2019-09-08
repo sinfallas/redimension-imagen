@@ -1,4 +1,16 @@
-commit 92c7f422be211359a665ade99d785edfc7de0b94 (HEAD -> master, origin/master)
+commit 43d0c424c11deefab3f396e8bba842b31d2157f0 (HEAD -> master, origin/master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Sep 8 14:11:07 2019 -0400
+
+    * nuevo script
+
+commit cadeb079e489d2ff904f6a61b919c461eb52ec67
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Jan 29 22:57:40 2019 -0400
+
+    * changelog
+
+commit 92c7f422be211359a665ade99d785edfc7de0b94
 Author: jose perez <sinfallas@gmail.com>
 Date:   Tue Jan 29 22:57:27 2019 -0400
 
